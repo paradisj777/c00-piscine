@@ -6,7 +6,7 @@
 /*   By: jparadis <marvin@42quebec.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/24 16:56:04 by jparadis          #+#    #+#             */
-/*   Updated: 2022/02/24 17:09:24 by jparadis         ###   ########.fr       */
+/*   Updated: 2022/03/01 13:34:11 by jparadis         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 void	ft_print_reverse_alphabet(void)
 {
-	write(1, "zyxwvutsrqponmlkjihgfedcba\n", 27);
+	write(1, "zyxwvutsrqponmlkjihgfedcba", 26);
 }
